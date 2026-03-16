@@ -1,0 +1,153 @@
+version: "3.1"
+
+languages:
+  - en
+  - hi
+
+intents:
+  - default_fallback
+  - ask_about_us_hi
+  - ask_support_hi
+  - ask_offer_hi
+  - ask_foundational_block_tour_hi
+  - ask_lifenavigator_platform_tour_hi
+  - greet_hi
+  - thanks_hi
+  - share_feedback_hi
+  - start_tour_hi
+  - default_fallback_hi
+
+responses:
+  utter_greet_hi:
+    - text: "नमस्ते! मैं आपकी कैसे मदद कर सकता हूँ?"
+    - text: "नमस्कार! मैं आपकी कैसे सहायता कर सकता हूँ?"
+    - text: "नमस्ते! आज मैं आपकी कैसे मदद कर सकता हूँ?"
+    - text: "नमस्कार! मैं आपकी किस प्रकार मदद कर सकता हूँ?"
+
+  utter_start_tour_hi:
+    - text: "बहुत अच्छा! चलिए, हम पूरी मार्गदर्शित यात्रा शुरू करते हैं। शुरुआत करने के लिए ONE टाइप करें!"
+    - text: "स्वागत है! चलिए, आपकी यात्रा को हमारी पूरी मार्गदर्शित यात्रा से शुरू करते हैं। शुरुआत करने के लिए ONE टाइप करें!"
+    - text: "शानदार! हम आपको हमारे प्लेटफॉर्म से परिचित कराने के लिए उत्साहित हैं। चलिए यात्रा शुरू करते हैं। शुरुआत करने के लिए ONE टाइप करें!"
+    - text: "परफेक्ट! मैं आपको हमारे प्लेटफॉर्म से परिचित कराता हूँ। क्या आप यात्रा के लिए तैयार हैं? शुरुआत करने के लिए ONE टाइप करें!"
+
+  utter_thanks_hi:
+    - text: "आपका स्वागत है! अगर आपको कुछ और चाहिए हो तो मुझे बताएं। मैं नीचे दिए गए विकल्पों में बताए गए कार्य करने में सक्षम हूँ।"
+    - text: "मुझे खुशी है कि मैं आपकी मदद कर सका! कभी भी संपर्क करने में संकोच न करें। मैं नीचे दिए गए विकल्पों में बताए गए कार्य करने में सक्षम हूँ।"
+    - text: "कभी भी! अगर आपको और मदद चाहिए तो बिना संकोच पूछें। मैं नीचे दिए गए विकल्पों में बताए गए कार्य करने में सक्षम हूँ।"
+    - text: "आपका बहुत-बहुत धन्यवाद! अगर मैं कुछ और मदद कर सकता हूँ तो बताएं। मैं नीचे दिए गए विकल्पों में बताए गए कार्य करने में सक्षम हूँ।"
+
+  utter_about_us_hi:
+    - text: >
+        हम Victories Over Dreams से हैं, जो हमारी शिक्षा प्रणाली में मौजूद खाई और चुनौतियों को पाटने का प्रयास कर रहे हैं।
+
+        हम क्या बना रहे हैं:
+        - Life Navigator Tools — आत्म-विकास (self-improvement) पर आधारित डिजिटल उत्पाद → हम यहीं हैं!
+        - Micro-Workshop Programs, जो soft skills और अनुभव-आधारित (experiential) शिक्षा पर केंद्रित हैं → यह हमारा दीर्घकालिक विज़न है
+        - EntreHub — एक उद्यमिता हब, जो बिज़नेस बिल्डिंग को बढ़ावा देता है → दीर्घकालिक विज़न का हिस्सा
+        - Micro और Mega Learning Centers, जो शिक्षा और उद्यमिता से जुड़ी सुविधाएं देते हैं, साथ ही "Earn & Learn" जैसी योजनाएं → दीर्घकालिक दृष्टिकोण के तहत
+
+        इन सभी प्रयासों को एकीकृत (integrate) कर रहे हैं ताकि ठोस परिणाम मिलें, शिक्षा की कुल लागत घटे और सामाजिक समस्याएं भी कम हों।
+
+        हमारा विज़न:
+        - हम शिक्षा में एक क्रांति लाना चाहते हैं — ऐसा सिस्टम जो उद्यमिता सोच को पोषित करे, critical thinking को तेज़ करे, और skill-based, practical learning को modern tools के ज़रिए सिखाए। हमारा उद्देश्य है कि अगली पीढ़ी को global स्तर पर agile और impactful बनाया जाए।
+
+        हमारा मिशन:
+        - हम ऐसे future-ready minds को empower करना चाहते हैं जो innovation, entrepreneurship और real-world learning के ज़रिए शिक्षा को फिर से परिभाषित करें — जिससे यह accessible, practical और effective बन सके।
+        - जहां education और technology मिलते हैं और ideas actions में बदलते हैं — वहीं से एक smart future की शुरुआत होती है।
+        - एक community, एक skill, एक tool, एक mind — एक समय में।
+
+        अधिक जानकारी के लिए, संस्थापक का संदेश इस पेज पर देखें:
+        👉 https://www.victoriesoverdreams.com/about-us
+
+        व्यक्तिगत छूट पाने के लिए FOUR टाइप करें!
+
+  utter_support_hi:
+    - text: "हमसे संपर्क करने के लिए   (https://www.victoriesoverdreams.com/contact-us)"
+
+  utter_offer_hi:
+    - text: "यहां छूट के साथ खरीदारी करने का लिंक है: (https://www.victoriesoverdreams.com/products)"
+
+  utter_foundational_block_tour_hi:
+    - text: |
+        LifeNavigator प्लेटफ़ॉर्म एक ऐसा टूलसेट है जो व्यक्तिगत विकास को केंद्र में रखकर बनाया गया है। हमारा मानना है कि ज़िंदगी एक सतत विकास की यात्रा है — और यही सोच इस प्लेटफ़ॉर्म के पीछे की प्रेरणा है।
+
+        यह टूल आपको चार मुख्य जीवन क्षेत्रों में ग्रोथ करने में मदद करता है — जहाँ आप core qualities को master करते हैं, real-life skills बनाते हैं, और अपने purpose के साथ alignment लाते हैं।
+        
+        LifeNavigator के चार स्तंभ (जिसे हम #2F2P भी कहते हैं):
+          - Fitness — Physical wellness और discipline;
+          - Professional — Career growth और excellence;
+          - Personal — Emotional strength और self-awareness;
+          - Financial — Wealth mindset और decision-making skills;
+        
+        Core Skills और Qualities (6 मुख्य themes):
+          - Mindset और दृष्टिकोण;
+          - Work ethic और discipline;
+          - Communication और leadership;
+          - Learning और adaptability;
+          - Vision और purpose;
+          - Financial risk management;
+
+        “Zindagi ek निरंतर growth की यात्रा है — जिज्ञासा self-discovery को fuel देती है, और अनुभव आपके उद्देश्य के रास्ते को आकार देते हैं।”
+
+        Quick Tour Video देखने के लिए क्लिक करें:
+         - https://www.youtube.com/watch?v=BKBt33Jcpe4
+
+         - Life Navigator टूल का टूर शुरू करने के लिए 'TWO' टाइप करें!
+
+  utter_lifenavigator_platform_tour_hi:
+    - text: |
+        🧭 LifeNavigator प्लेटफ़ॉर्म – Quick Tour of the Productivity Wheel
+        
+        🎯 केंद्र में:
+        - Dashboard & Monitoring
+        यह आपका central control hub है — जहाँ आप अपनी life और productivity के हर पहलू को track, visualize और अपने goals के साथ align कर सकते हैं।
+
+        - चारों ओर फैले हुए 8 मॉड्यूल्स:
+
+        - Entrepreneurship
+        Apne business ideas को structured tools की मदद से बनाएं और grow करें।
+
+        - Planners, Trackers & Organizers
+        Daily/Weekly planners, goal trackers और organizers जो आपको track पर बनाए रखते हैं।
+
+        - Retrospection
+        Apni progress पर सोचें, analyze करें और key insights निकालें।
+
+        - Learning & Upskilling
+        Curated learning resources और growth-focused learning paths।
+
+        - Decision-Making Tools
+        Confident और clear decisions लेने के लिए guided frameworks।
+
+        - Office Buddy
+        Aapka digital accountability partner — focus और task management के लिए।
+
+        - Financial Planning
+        Apne पैसे, goals, savings और investments को manage करने के tools।
+
+        - Health & Fitness
+        Apne workouts, wellness और health goals को track करें।
+
+        - यह पूरा Productivity Wheel एक 360° life management experience देता है — जहाँ सब कुछ एक unified dashboard से monitor किया जा सकता है।
+
+        - Kya aap kisi module ko और गहराई से explore करना चाहते हैं?
+        - Quick Tour Video देखें: https://www.youtube.com/watch?v=bevV7bwwt7E
+
+        - Tools ke vision ke बारे में और जानने के लिए 'THREE' टाइप करें!
+
+  utter_share_feedback_hi:
+    - text: "हमें आपकी राय जानकर खुशी होगी! कृपया हमारी (https://www.victoriesoverdreams.com/survey) पर अपनी प्रतिक्रिया साझा करें।"
+
+  utter_default_fallback_hi:
+    - text: "मुझे खेद है, मैं इसे ठीक से नहीं समझ पाया। क्या आप कृपया अपना सवाल फिर से कह सकते हैं? मैं नीचे दिए गए विकल्पों में उल्लिखित कार्य करने के लिए प्रशिक्षित हूं।"
+    - text: "मुझे यकीन नहीं है कि मैं समझ पाया। क्या आप कृपया स्पष्ट कर सकते हैं कि आपका क्या मतलब है? मैं नीचे दिए गए विकल्पों में उल्लिखित कार्य करने के लिए प्रशिक्षित हूं।"
+    - text: "मुझे खेद है, मैं इसे ठीक से नहीं पकड़ पाया। क्या आप फिर से कह सकते हैं? मैं नीचे दिए गए विकल्पों में उल्लिखित कार्य करने के लिए प्रशिक्षित हूं।"
+
+
+actions:
+  - action_default_fallback
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

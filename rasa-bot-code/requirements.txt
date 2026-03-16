@@ -1,0 +1,5 @@
+rasa-sdk==3.6.2
+rasa==3.6.21
+flask
+flask_cors
+transformers

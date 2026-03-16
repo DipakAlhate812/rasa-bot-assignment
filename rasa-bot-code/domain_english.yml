@@ -1,0 +1,150 @@
+version: "3.1"
+
+languages:
+  - en
+  - hi
+
+intents:
+  - ask_about_us
+  - ask_support
+  - ask_offer
+  - ask_foundational_block_tour
+  - ask_lifenavigator_platform_tour
+  - greet
+  - thanks
+  - share_feedback
+  - start_tour
+  - default_fallback
+
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+    - text: "Hi there! How can I help you today?"
+    - text: "Hey! What can I do for you today?"
+    - text: "Greetings! How may I assist you?"
+
+  utter_start_tour:
+    - text: "Great! Let’s begin the full guided tour. Type ONE to start!"
+    - text: "Welcome! Let's kick off your journey with our full guided tour. Type ONE to start!"
+    - text: "Awesome! We're excited to show you around. Let's start the tour. Type ONE to start!"
+    - text: "Perfect! Let me take you through our platform. Ready for the tour? Type ONE to start!"
+  
+  utter_thanks:
+    - text: "You're welcome! Let me know if you need anything else. I am trained to do task mentioned in Options below."
+    - text: "Glad I could help! Feel free to reach out anytime. I am trained to do task mentioned in Options below."
+    - text: "Anytime! Don't hesitate to ask if you need further assistance. I am trained to do task mentioned in Options below."
+    - text: "You're very welcome! Let me know if I can assist with anything else. I am trained to do task mentioned in Options below."
+
+  utter_about_us:
+    - text: >
+        We are from Victories Over Dreams working on bridging gap and challenges of our education system. 
+        
+
+        What we are building:
+        - Life Navigator Tools — Digital Products on self improvement >> We are here!
+        - Micro-workshops programmes on Soft Skills and Experience-Based Learning >> Long term vision
+        - Entrepreneurship Hub — EntraHub to foster business creation >> Long term vision
+        - Micro and Mega Learning Centres providing educational and entrepreneurial facilities with Earn and Learn schemes >> Long term vision
+        - Integrating Everything to drive results; and reduce overall educational cost and reduce societal problems >> Long term vision
+        
+
+        Our Vision:
+            We aim to revolutionize education by nurturing entrepreneurial mindsets, sharpening critical thinking, and enabling skill-based, practical learning through modern tools—preparing the next generation to thrive globally with agility and impact.
+        
+        Our Mission:
+            We empower future-ready minds by reshaping education through innovation, entrepreneurship, and real-world learning—making it accessible, practical, and impactful. Where learning meets technology and ideas turn into action, we’re building a smarter future—one community, one skill, one tool, one mind at a time.
+
+        Additionally you can check founders message on following page. (https://www.victoriesoverdreams.com/about-us)
+
+        Type FOUR for grabbing personal discount!
+
+
+  utter_support:
+    - text: "Raise a query on our (https://www.victoriesoverdreams.com/contact-us)"
+
+  utter_offer:
+    - text: "Here is the link for purchase with discounted offer: (https://www.victoriesoverdreams.com/products)"
+
+  utter_foundational_block_tour:
+    - text: |
+        LifeNavigator platform is a set of tools specifically crafted for individual focusing on self-development built around the idea that life is a journey of continuous growth. It helps you grow across four essential life domains — by mastering key traits, building real-life skills, and aligning with your purpose.
+
+        🔹 The Four Pillars of LifeNavigator (#2F2P):
+        - 🏋️ Fitness — Physical wellness & discipline  
+        - 💼 Professional — Career growth & excellence  
+        - 🧍 Personal — Emotional strength & self-awareness  
+        - 💰 Financial — Wealth mindset & decision making  
+
+        🔹 Core Skills & Traits (6 themes):
+        - Mindset & Attitude
+        - Work Ethics & Discipline
+        - Communication & Leadership
+        - Learning & Adaptability
+        - Vision & Purpose
+        - Financial Risk Management
+
+        🔮 “Life is a journey of continuous growth—curiosity fuels self-discovery, and experiences shape the path to purpose.”
+
+        🎥 Watch the Quick Tour Video: (https://www.youtube.com/watch?v=BKBt33Jcpe4)
+
+        Type TWO for Life Navigator Tool Tour!
+    
+  utter_lifenavigator_platform_tour:
+    - text: |
+        🧭 LifeNavigator Platform – Productivity Wheel Quick Tour
+
+        At the center:
+        🧩 Dashboard & Monitoring
+        Your central control hub — where all aspects of life and productivity are tracked, visualized, and aligned with your goals.
+
+        🔄 Surrounding Modules:
+
+        1. 📈 Entrepreneurship  
+        Build and grow your business ideas with structured tools.
+
+        2. 🗂️ Planners, Trackers, Organizers  
+        Daily/weekly planners, goal trackers, and productivity organizers to keep you on track.
+
+        3. 🔁 Retrospection  
+        Reflect on your progress and extract key insights from your actions.
+
+        4. 🎓 Learning & Upskilling  
+        Curated resources and learning paths to continuously grow.
+
+        5. 🧠 Decision Making Tools  
+        Make confident and clear decisions using guided frameworks.
+
+        6. 🤝 Office Buddy 
+        Your digital accountability partner for daily focus and task management.
+
+        7. 💰 Financial Planning 
+        Tools for managing your money, goals, savings, and investments.
+
+        8. 💪 Health & Fitness 
+        Track your physical wellness, workouts, and health goals.
+
+        🔹 This productivity wheel provides a 360° life management experience — with everything monitored from a unified dashboard.
+
+        👉 Ready to explore a module in depth?
+        🎥 Watch the Quick Tour Video: (https://www.youtube.com/watch?v=bevV7bwwt7E)
+
+        Type THREE for Knowing More About Tools Vision!
+    
+  utter_share_feedback:
+    - text: "We'd love to hear your thoughts! Please share your feedback on our (https://www.victoriesoverdreams.com/survey)."
+
+  utter_default_fallback:
+    - text: "I’m sorry, I didn’t quite get that. Could you please rephrase your question? I am trained to do following tasks mentioned in below options"
+    - text: "I’m not sure I understand. Can you clarify what you mean? I am trained to do following tasks mentioned in below options"
+    - text: "I’m sorry, I didn't quite catch that. Can you say that again? I am trained to do following tasks mentioned in below options"
+
+  utter_set_language:
+    - text: "Language set to {language}"
+
+actions:
+  - action_default_fallback
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

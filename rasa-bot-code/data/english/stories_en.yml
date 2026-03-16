@@ -1,0 +1,52 @@
+version: "3.1"
+
+stories:
+  - story: greet
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: thanks
+    steps:
+      - intent: thanks
+      - action: utter_thanks
+  
+  - story: start the tour
+    steps:
+      - intent: start_tour
+      - action: utter_start_tour
+
+  - story: about us flow
+    steps:
+      - intent: ask_about_us
+      - action: utter_about_us
+
+  - story: support inquiry path
+    steps:
+      - intent: ask_support
+      - action: utter_support
+
+  - story: offer message path
+    steps:
+      - intent: ask_offer
+      - action: utter_offer
+
+  - story: life navigator quick tour
+    steps:
+      - intent: ask_foundational_block_tour
+      - action: utter_foundational_block_tour
+
+  - story: life navigator platform quick tour
+    steps:
+      - intent: ask_lifenavigator_platform_tour
+      - action: utter_lifenavigator_platform_tour
+
+  - story: share feedback or testimonial
+    steps:
+      - intent: share_feedback
+      - action: utter_share_feedback
+
+
+
+
+  

@@ -1,0 +1,428 @@
+version: "3.1"
+
+nlu:
+
+- intent: thanks
+  examples: |
+    - Thank you
+    - Thanks for your help
+    - Appreciate it
+    - Thanks a lot
+    - Many thanks
+    - I really appreciate it
+    - Thanks so much
+    - Thank you very much
+    - Thanks a ton
+    - I’m grateful
+    - Thanks for everything
+    - I appreciate your help
+    - You’re awesome, thank you
+    - You’ve been a big help, thanks
+    - Much appreciated
+    - Thanks a million
+    - I can’t thank you enough
+    - I’m thankful
+    - I’m really grateful
+    - Thanks for your support
+    - I appreciate it a lot
+    - Thanks for your time
+    - Thanks for all your effort
+    - You’ve been great, thanks
+    - Thank you kindly
+    - I’m forever grateful
+    - Thank you so much
+    - I owe you one, thanks
+    - Thanks for everything you do
+    - Thank you for your assistance
+    - I really appreciate your help
+    - Thanks for your quick response
+    - You’ve been really helpful, thanks
+    - I appreciate your quick help
+    - Thank you for the great service
+    - I’m so thankful for your help
+    - You’re the best, thanks
+    - Thanks for the support
+    - I’m so grateful for your help
+    - Thanks for always being there
+    - I appreciate your kindness
+    - You really helped me, thanks
+    - Thanks for making it happen
+    - Thanks for all your help today
+    - Thanks for being so understanding
+    - I appreciate your patience
+    - Thanks for the great advice
+    - I’m really thankful for you
+    - Thanks for your guidance
+    - I appreciate all your hard work
+    - Thanks for your dedication
+    - You made my day, thank you
+
+- intent: greet
+  examples: |
+    - Hello
+    - Hi
+    - Hey
+    - Good morning
+    - Good afternoon
+    - Good evening
+    - Hey there
+    - Hi there
+    - Howdy
+    - What's up?
+    - How’s it going?
+    - Greetings
+    - Hola
+    - Yo
+    - What's good?
+    - Sup?
+    - How are you?
+    - How’s everything?
+    - Hey, how’s it going?
+    - Hi, how are you?
+    - Hello there
+    - Morning!
+    - How you doing?
+    - How’s your day going?
+    - What's happening?
+    - Good to see you
+    - Long time no see
+    - Hello, how are you today?
+    - Hey, how’s everything?
+    - What's new?
+    - It's great to see you
+    - Hi, hope you're well
+    - How have you been?
+    - Hey, what's up with you?
+    - Hey, what's going on?
+    - Hi, what's up?
+    - How are things with you?
+    - How's life treating you?
+    - Greetings, how's it going?
+    - What's crackin'?
+    - What's popping?
+    - Hiya
+    - Bonjour
+    - Salutations
+    - Hi everyone
+    - What's the word?
+    - How's your day been?
+    - Hi, hope you're having a good day
+    - Hello, how’s your morning?
+    
+
+- intent: start_tour
+  examples: |
+    - Start the tour
+    - Let’s begin the tour
+    - I want to take the tour
+    - Show me around
+    - Let's get started with the tour
+    - I’m ready for the tour
+    - Start my journey
+    - Take me on a tour
+    - Begin the tour
+    - Start the walkthrough
+    - Show me the features
+    - Show me the guide
+    - Take me through the tour
+    - I’d like to start the tour
+    - Ready to start the tour
+    - Let’s begin
+    - Show me the tour
+    - Start the guide
+    - Lead me on the tour
+    - I want to explore
+    - Show me the introduction
+    - Let’s take the tour
+    - Guide me through the tour
+    - Start the walkthrough
+    - Time to begin the tour
+    - Let’s go on a tour
+    - I’m ready to explore
+    - Start the exploration
+    - Begin the introduction
+    - Let me see the tour
+    - Take me through the features
+    - Start the experience
+    - Begin exploring
+    - Let’s start the journey
+    - I’m ready for the guide
+    - Let’s go on a walkthrough
+    - Show me the product tour
+    - Let’s start with a tour
+    
+
+- intent: ask_about_us
+  examples: |
+    - Who are you?
+    - Tell me about your company
+    - What do you guys do?
+    - Three
+    - 3
+    - THREE
+    - What is your mission?
+    - Tell me about your team
+    - What do you offer?
+    - What’s your purpose?
+    - What is Victories Over Dreams?
+    - Who is behind this?
+    - What is your organization about?
+    - What’s your goal?
+    - Can you tell me about your company?
+    - What’s the vision of your company?
+    - What’s your story?
+    - What is your business about?
+    - What does Victories Over Dreams do?
+    - What services do you provide?
+    - Can you explain your company?
+    - Who runs Victories Over Dreams?
+    - Who started this company?
+    - What is the background of your company?
+    - What is the aim of your organization?
+    - Who is Victories Over Dreams for?
+    - What’s your organization’s vision?
+    - What makes you unique?
+    - What’s your business about?
+    - Tell me more about your mission
+    - Why did you start Victories Over Dreams?
+    - What inspired your company?
+    - Can you describe your company’s work?
+    - What are you trying to achieve?
+    
+
+- intent: ask_support
+  examples: |
+    - I need support
+    - I'm facing an issue
+    - I have a bulk order inquiry
+    - Need help
+    - Can I talk to support?
+    - Bulk purchase question
+    - I need assistance
+    - Can you help me with this?
+    - I have a problem
+    - I need technical support
+    - How can I contact support?
+    - I’m having trouble with my order
+    - Can you provide customer support?
+    - How do I get help?
+    - I need help with my account
+    - I have a question about my order
+    - How can I get support for this issue?
+    - I need troubleshooting assistance
+    - Can I get help with a product issue?
+    - I have a support request
+    - Can you help me resolve this problem?
+    - I’m having difficulty placing an order
+    - I need help with my account settings
+    - I have a complaint
+    - Can someone help me with my issue?
+    - Is there a way to contact customer service?
+    - I need more information about my order
+    - How can I get help with billing?
+    - Can you help me with a refund request?
+    - I need support for a technical problem
+    - I’m looking for assistance with returns
+    
+
+
+- intent: ask_offer
+  examples: |
+    - Loving it so far?
+    - Is there any offer?
+    - Do you have a limited-time deal?
+    - Any discount available?
+    - Special offer for me?
+    - 4
+    - Four
+    - FOUR
+    - Are there any ongoing promotions?
+    - Can I get a discount today?
+    - What offers do you have?
+    - Do you have any sales going on?
+    - Any special pricing available?
+    - Can I get a deal?
+    - Are there any coupons I can use?
+    - Is there a price reduction available?
+    - What's the best offer you have right now?
+    - Can I avail any discounts?
+    - Do you have any seasonal offers?
+    - Is there any price slash going on?
+    - Any special deals for me today?
+    - I’m looking for discounts. Can you help?
+    - Do you have any vouchers available?
+    - Can I get a promo code?
+    - Are there any offers for first-time customers?
+    - What are the current offers on your products?
+    - Can you tell me about the latest discounts?
+    - What’s the best deal you can offer me?
+    - Are there any flash sales today?
+    - Any exclusive offers for members?
+    - Do you have any buy one get one free offers?
+    - Do you have special pricing for students?
+    - Any weekend deals available?
+    - Are there any limited-time promotions available?
+    - Can I get a discount for signing up?
+    - Do you offer any cashback deals?
+    - Any bundled offers available?
+    - Do you have any offer for returning customers?
+    - What’s the best price you can offer me?
+    - Any early bird offers available?
+    - Do you have any clearance sales?
+    - Can I get a discount on bulk purchases?
+    - Any offer for festivals or holidays?
+    - Is there any promotional price on your services?
+    - Can I get a seasonal discount?
+    - Do you offer discounts for referrals?
+    - What are the current ongoing offers for VIP members?
+    - Is there a loyalty discount?
+    - Are there any special offers for large orders?
+    - Any last-minute offers available?
+    - Do you offer free shipping with any discount?
+    - Are there any flash discounts on your website?
+    - Can I get a special offer for signing up for the newsletter?
+    - Are there any offers if I buy multiple items?
+    - Is there an offer available for first-time buyers?
+    
+
+- intent: ask_foundational_block_tour
+  examples: |
+    - Learn the Foundation block of Life Navigator
+    - Quick tour Foundation block of Life Navigator
+    - Tell me about Foundation block 
+    - What is foundation block of Life Navigator?
+    - Explain Life Navigator framework
+    - One
+    - 1
+    - ONE
+    - Can you explain the foundational block of Life Navigator?
+    - What are the components of the foundation block?
+    - Give me a brief overview of the Foundation block.
+    - How does the Foundation block work in Life Navigator?
+    - What is the purpose of the Foundation block in Life Navigator?
+    - Can you describe the Foundation block to me?
+    - What is the first step in Life Navigator?
+    - What is the Foundation block of the Life Navigator framework?
+    - Tell me more about the Life Navigator Foundation block.
+    - Show me the Foundation block of Life Navigator.
+    - What's included in the Foundation block of Life Navigator?
+    - How does the Foundation block support the Life Navigator journey?
+    - What does the Foundation block consist of in Life Navigator?
+    - Give me an introduction to the Foundation block of Life Navigator.
+    - Walk me through the Foundation block.
+    - What does the Foundation block represent in Life Navigator?
+    - Can you describe the foundational elements of Life Navigator?
+    - What is the core of the Life Navigator framework?
+    - Can you explain the first block of Life Navigator in detail?
+    - What is included in the Foundation block of Life Navigator?
+    - How does the Foundation block help in the Life Navigator process?
+    - Tell me about the Life Navigator Foundation block structure.
+    - What is the significance of the Foundation block in Life Navigator?
+    - Can you give me an overview of the Foundation block for Life Navigator?
+    - Can you elaborate on the Foundation block of Life Navigator?
+    
+
+- intent: ask_lifenavigator_platform_tour
+  examples: |
+    - Take a Life Navigator Platform Quick Tour
+    - Show me the Life Navigator tools
+    - What’s in the Life Navigator platform?
+    - Quick tour of the Life Navigator platform
+    - Tell me about all the features in Life Navigator
+    - Give me a tour of Life Navigator dashboard
+    - Explain the productivity tools in Life Navigator
+    - Two
+    - 2
+    - TWO
+    - Can you show me the Life Navigator platform?
+    - What tools does Life Navigator offer?
+    - What features are included in the Life Navigator platform?
+    - Give me a walkthrough of the Life Navigator platform.
+    - Can you give me a quick overview of the Life Navigator tools?
+    - What are the main tools in the Life Navigator platform?
+    - Show me the key features of Life Navigator.
+    - Can you explain the tools in Life Navigator?
+    - What’s available in the Life Navigator dashboard?
+    - Give me a demo of the Life Navigator platform.
+    - How does the Life Navigator platform help with productivity?
+    - Can you walk me through the Life Navigator platform?
+    - What is included in the Life Navigator platform tools?
+    - Tell me more about the features of the Life Navigator platform.
+    - Show me the features of the Life Navigator dashboard.
+    - What’s the Life Navigator platform all about?
+    - How does the Life Navigator platform improve productivity?
+    - Can you give a brief tour of the Life Navigator platform?
+    - What does the Life Navigator platform include?
+    - Show me the features and tools of Life Navigator.
+    - What is the purpose of the Life Navigator platform?
+    - Can you explain how the Life Navigator platform works?
+    - Can you guide me through the Life Navigator platform?
+    - What are the benefits of using the Life Navigator platform?
+    - Give me an overview of the features in the Life Navigator platform.
+    
+
+- intent: share_feedback
+  examples: |
+    - I want to share my feedback
+    - Can I give a testimonial?
+    - I'd like to share my experience
+    - How can I provide feedback?
+    - I have some feedback for you
+    - Can I leave a review?
+    - I want to give feedback
+    - I'd like to leave a review
+    - How can I share my thoughts with you?
+    - I'd like to provide some feedback
+    - Can I share my opinion?
+    - Is there a way to submit feedback?
+    - I'd like to share my thoughts
+    - How do I leave feedback?
+    - I have a suggestion
+    - Can I tell you my experience?
+    - I want to share my thoughts on this
+    - Can I offer a review?
+    - How can I submit a review?
+    - Where can I leave my feedback?
+    - I’d like to give my feedback
+    - I have some suggestions to share
+    - Can I share my thoughts with you?
+    - I'd like to tell you about my experience
+    - Is there a place to leave feedback?
+    - I want to share a testimonial
+    - Can I give you my feedback?
+    - I would like to submit a testimonial
+    - How can I leave a testimonial?
+    - Can I provide a review?
+    - Can I give you a review of my experience?
+    
+
+
+- intent: default_fallback
+  examples: |
+    - ""
+    - I don't know
+    - I don't understand
+    - Can you help me?
+    - What should I do now?
+    - I'm confused
+    - I don't get it
+    - Can you repeat that?
+    - Could you clarify?
+    - Huh?
+    - What are you talking about?
+    - What do you mean?
+    - Say that again
+    - Can you explain?
+    - I'm lost
+    - I'm not sure
+    - Could you help me understand?
+    - I don't have any questions
+    - Please explain it again
+    - Sorry, I didn't catch that
+    - I'm not following
+    - Can you say that one more time?
+    - Could you simplify that?
+    - I don't understand this part
+    - Can you give me more details?
+    - What was that?
+    
